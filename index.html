@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+
+        Order
+
+    </title>
+
+</head>
+
+<link rel="stylesheet" href="./aseets/css/normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./aseets/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="./js/script.js" defer></script>
+
+<body>
+
+    <header class="header">
+
+        <div class="header-container">
+
+            <div class="header-icon">
+
+                <a href="#">
+
+                    <img class="mobile-icon" src="./aseets/icons/CW3.svg" alt="CW3">
+
+                </a>
+
+            </div>
+
+            <div class="header-menu">
+
+                <ul>
+                    <li class="has-submenu">
+
+                        <a href="#">
+
+                            About Car.world
+
+                        </a>
+
+                        <ul class="submenu">
+
+                            <li>
+
+                                <a href="#">
+
+                                    Our company
+
+                                </a>
+
+                            </li>
+
+                            <li>
+
+                                <a href="#">
+
+                                    Our team
+
+                                </a>
+
+                            </li>
+
+                            <li>
+
+                                <a href="#">
+
+                                    Partners
+
+                                </a>
+
+                            </li>
+
+                            <li>
+
+                                <a href="#">
+
+                                    Stories
+
+                                </a>
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            Collection
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            Museum
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            Database
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            Shop
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="burger-menu">
+
+            <div class="burger-icon">
+
+                <img class="burger-image" src="./aseets/icons/burger-icon.svg" alt="Burger-icon">
+
+            </div>
+
+        </div>
+
+        </div>
+
+        <div class="mobile-menu">
+
+            <ul>
+
+                <li class="has-submenu">
+
+                    <a href="#">
+
+                        About Car.world
+
+                    </a>
+
+                    <ul class="submenu">
+
+                        <li>
+
+                            <a href="#">
+
+                                Our company
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="#">
+
+                                Our team
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="#">
+
+                                Partners
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="#">
+
+                                Stories
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+
+                    <a href="#">
+
+                        Collection
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#">
+
+                        Museum
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#">
+
+                        Database
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="#">
+
+                        Shop
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <div class="slider">
+
+            <div class="slides">
+
+                <div class="slide active">
+
+                    <div class="slide-items">
+
+                        <img src="./aseets/icons/Details Matter.svg" alt="Retro-car">
+
+                        <p>
+
+                            Enthusiast for enthusiasts. <br />
+                            That’s what you can call CarWorld.
+
+                        </p>
+
+                        <button type="button">
+
+                            Show details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="slide">
+
+                    <div class="slide-items">
+
+                        <p>
+                            Slide 2
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="slide">
+
+                    <div class="slide-items">
+
+                        <p>
+                            Slide 3
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="slide">
+
+                    <div class="slide-items">
+
+                        <p>
+                            Slide 4
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="navigation">
+
+                <label for="slide1" class="dot"></label>
+                <label for="slide2" class="dot"></label>
+                <label for="slide3" class="dot"></label>
+                <label for="slide4" class="dot"></label>
+
+                <div class="arrow left" onclick="prevSlide()">
+
+                    <img src="./aseets/icons/arrow-left.svg" alt="Arrow-Left">
+
+                </div>
+
+                <div class="arrow right" onclick="nextSlide()">
+
+                    <img src="./aseets/icons/arrow-right.svg" alt="Arrow-Right">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="welcome-another-world">
+
+            <div class="another-world-container">
+
+                <div class="line"></div>
+
+                <p>
+
+                    Welcome to another world.<br />
+                    Welcome to Car.world
+
+                </p>
+
+                <small>
+
+                    We love to share interesting content about the history of the Car234 and CWCar MyCar B. <br />
+                    Here you find content from all over the world: from Japan to the United States of America.<br />
+
+                </small>
+
+                <small>
+
+                    In recent years we have also met many CW enthusiasts from all over the world. <br />
+
+                </small>
+
+                <small>
+
+                    They have shared their YourCar A and MyCar B passion with us.<br />
+                    These are real CW people and you can read and see their story here.<br />
+
+                </small>
+
+                <small>
+
+                    Read all about the Car history.
+
+                </small>
+
+                <button type="button">
+
+                    Show details
+
+                </button>
+
+                <div class="line"></div>
+
+            </div>
+
+        </div>
+
+        <div class="collection-block">
+
+            <div class="collection-container">
+
+                <img src="./aseets/img/garage.png" alt="Garage">
+
+                <div class="collection-items">
+
+                    <div class="collection-name-block">
+
+                        <p>
+
+                            All about the CW <br />
+                            <span>A collection full of passion</span>
+
+                        </p>
+
+                    </div>
+
+                    <p class="collection-first-text">
+
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam <br /> nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam <br /> erat,
+                        sed diam voluptua. At vero eos et accusam et justo duo dolores et <br /> ea rebum.
+                        Stet clita kasd gubergren, no sea takimata sanctus est <br /> Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet, consetetur <br /> sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et <br /> dolore magna aliquyam erat, sed diam
+                        voluptua.
+                        At vero eos et accusam et <br /> justo duo dolores et ea rebum.
+
+                    </p>
+
+                    <button type="button">
+
+                        Show details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="block-line">
+
+                <div class="line-second"></div>
+
+            </div>
+
+        </div>
+
+        <div class="collection-block">
+
+
+            <div class="collection-container">
+
+
+                <div class="collection-items-second">
+
+                    <img class="collect-mobile-img" src="./aseets/img/garage2.png" alt="Garage2">
+
+                    <div class="collection-name-block-second">
+
+                        <p>
+
+                            A place full of heritage<br />
+                            <span>Our unique museum</span>
+
+                        </p>
+
+                    </div>
+
+                    <div class="visit-items">
+
+                        <p class="collection-text">
+
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                            sed diam <br /> nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam <br />
+                            erat,
+                            sed diam voluptua. At vero eos et accusam et justo duo dolores et <br /> ea rebum.
+                            Stet clita kasd gubergren, no sea takimata sanctus est <br /> Lorem ipsum dolor sit amet.
+                            Lorem ipsum dolor sit amet, consetetur <br /> sadipscing elitr,
+                            sed diam nonumy eirmod tempor invidunt ut labore et <br /> dolore magna aliquyam erat, sed
+                            diam
+                            voluptua.
+                            At vero eos et accusam et <br /> justo duo dolores et ea rebum.
+
+                        </p>
+
+                        <button type="button">
+
+                            Show details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="collection-img">
+
+                    <img src="./aseets/img/garage2.png" alt="Garage2">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="block-line">
+
+            <div class="line-second"></div>
+
+        </div>
+
+        <div class="banner">
+
+            <div class="banner-items">
+
+                <p>
+
+                    History is written. <br />
+                    <span>Let's find out together what it tells us.</span>
+
+                </p>
+
+                <button type="button">
+
+                    Show details
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="our-latest-block">
+
+            <div class="latest-name">
+
+                <p>
+
+                    Our latest posts
+
+                </p>
+
+            </div>
+
+            <div class="latest-posts">
+
+                <div class="post">
+
+                    <div class="post-img">
+
+                        <img src="./aseets/img/cover.png" alt="Cover">
+
+                        <div class="post-el">
+
+                            <div class="first-hashtag">
+
+                                <p>
+
+                                    #Japan
+
+                                </p>
+
+                            </div>
+
+                            <div class="second-hashtag">
+
+                                <p>
+
+                                    #555
+
+                                </p>
+
+                            </div>
+
+                            <div class="third-hashtag">
+
+                                <p>
+
+                                    #racing
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="post-items">
+
+                        <div class="meaning">
+
+                            <p>
+
+                                History
+
+                            </p>
+
+                        </div>
+
+                        <div class="post-name">
+
+                            <p>
+
+                                Car racing and rallying - Chapter 1: Racing 300 km 1970
+
+                            </p>
+
+                        </div>
+
+                        <button type="button">
+
+                            Read article
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="post">
+
+                    <div class="post-img">
+
+                        <img src="./aseets/img/cover2.png" alt="Cover2">
+
+                        <div class="post-el">
+
+                            <div class="first-hashtag">
+
+                                <p>
+
+                                    #Japan
+
+                                </p>
+
+                            </div>
+
+                            <div class="second-hashtag">
+
+                                <p>
+
+                                    #555
+
+                                </p>
+
+                            </div>
+
+                            <div class="third-hashtag">
+
+                                <p>
+
+                                    #racing
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="post-items">
+
+                        <div class="meaning">
+
+                            <p>
+
+                                Parts + Teach
+
+                            </p>
+
+                        </div>
+
+                        <div class="post-name">
+
+                            <p>
+
+                                More light with clean headlights - The headlight cleaning system
+
+                            </p>
+
+                        </div>
+
+                        <button type="button">
+
+                            Read article
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="post">
+
+                    <div class="post-img">
+
+                        <img src="./aseets/img/cover3.png" alt="Cover3">
+
+                        <div class="post-el">
+
+                            <div class="first-hashtag">
+
+                                <p>
+
+                                    #Japan
+
+                                </p>
+
+                            </div>
+
+                            <div class="second-hashtag">
+
+                                <p>
+
+                                    #555
+
+                                </p>
+
+                            </div>
+
+                            <div class="third-hashtag">
+
+                                <p>
+
+                                    #racing
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="post-items">
+
+                        <div class="meaning">
+
+                            <p>
+
+                                Documents
+
+                            </p>
+
+                        </div>
+
+                        <div class="post-name">
+
+                            <p>
+
+                                MyCar B Car - the Japanese catalog from 1970
+
+                            </p>
+
+                        </div>
+
+                        <button type="button">
+
+                            Read article
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="post">
+
+                    <div class="post-img">
+
+                        <img src="./aseets/img/cover4.png" alt="Cover4">
+
+                        <div class="post-el">
+
+                            <div class="first-hashtag">
+
+                                <p>
+
+                                    #Japan
+
+                                </p>
+
+                            </div>
+
+                            <div class="second-hashtag">
+
+                                <p>
+
+                                    #555
+
+                                </p>
+
+                            </div>
+
+                            <div class="third-hashtag">
+
+                                <p>
+
+                                    #racing
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="post-items">
+
+                        <div class="meaning">
+
+                            <p>
+
+                                Parts + tech
+
+                            </p>
+
+                        </div>
+
+                        <div class="post-name">
+
+                            <p>
+
+                                More visibility through clear lenses - The front indicators
+
+                            </p>
+
+                        </div>
+
+                        <button type="button">
+
+                            Read article
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="post">
+
+                    <div class="post-img">
+
+                        <img src="./aseets/img/cover5.png" alt="Cover5">
+
+                        <div class="post-el">
+
+                            <div class="first-hashtag">
+
+                                <p>
+
+                                    #Japan
+
+                                </p>
+
+                            </div>
+
+                            <div class="second-hashtag">
+
+                                <p>
+
+                                    #555
+
+                                </p>
+
+                            </div>
+
+                            <div class="third-hashtag">
+
+                                <p>
+
+                                    #racing
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="post-items">
+
+                        <div class="meaning">
+
+                            <p>
+
+                                History
+
+                            </p>
+
+                        </div>
+
+                        <div class="post-name">
+
+                            <p>
+
+                                The YourCar A - From concept to reality
+
+                            </p>
+
+                        </div>
+
+                        <button type="button">
+
+                            Read article
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="post">
+
+                    <div class="post-img">
+
+                        <img src="./aseets/img/cover6.png" alt="Cover6">
+
+                        <div class="post-el">
+
+                            <div class="first-hashtag">
+
+                                <p>
+
+                                    #Japan
+
+                                </p>
+
+                            </div>
+
+                            <div class="second-hashtag">
+
+                                <p>
+
+                                    #555
+
+                                </p>
+
+                            </div>
+
+                            <div class="third-hashtag">
+
+                                <p>
+
+                                    #racing
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="post-items">
+
+                        <div class="meaning">
+
+                            <p>
+
+                                History
+
+                            </p>
+
+                        </div>
+
+                        <div class="post-name">
+
+                            <p>
+
+                                1973 – the new CWCar Lorem Ipsum in lit
+
+                            </p>
+
+                        </div>
+
+                        <button type="button">
+
+                            Read article
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="button-load-block">
+
+                <button type="button">
+
+                    Load More
+
+                </button>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="block-line-second">
+
+            <div class="line-second"></div>
+
+        </div>
+
+        <div class="visit-block">
+
+
+            <div class="visit-name">
+
+                <p>
+
+                    Take a look at our newest parts and products. <br>
+
+                    <span> These are all original and the best for your Car234</span>
+
+                </p>
+
+            </div>
+
+            <button type="button">
+
+                Visit our Shop
+
+            </button>
+
+        </div>
+
+        <div class="latest-product-block">
+
+            <div class="latest-product-name">
+
+                <p>
+
+                    Our latest products
+
+                </p>
+
+            </div>
+
+            <div class="latest-products">
+
+                <div class="product">
+
+                    <div class="product-img">
+
+                        <img src="./aseets/img/latest.png" alt="Latest2">
+
+                        <div class="product-el">
+
+                            <div class="price">
+
+                                <p>
+
+                                    695 €
+
+                                </p>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-items">
+
+                        <div class="data">
+
+                            <p>
+
+                                01-70 – 10-70
+
+                            </p>
+
+                        </div>
+
+                        <div class="product-name">
+
+                            <p>
+
+                                Car.wolrd F´fuel tank for all <br />
+                                Lorem ipsum dolor sit amet <br />
+                                and voluptua
+
+                            </p>
+
+                        </div>
+
+                        <button type="button">
+
+                            Show product
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product">
+
+                    <div class="product-img">
+
+                        <img src="./aseets/img/latest2.png" alt="Latest2">
+
+                        <div class="product-el">
+
+                            <div class="price">
+
+                                <p>
+
+                                    198 €
+
+                                </p>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-items">
+
+                        <div class="data">
+
+                            <p>
+
+                                10-69 till 1978 & 10-69 till 7-72
+
+                            </p>
+
+                        </div>
+
+                        <div class="product-name">
+
+                            <p>
+
+                                Car set of front and rear bumper <br />
+                                rubber strips (horiContal), 100% <br />
+                                reproduction.
+
+                            </p>
+
+                        </div>
+
+                        <button type="button">
+
+                            Show product
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product">
+
+                    <div class="product-img">
+
+                        <img src="./aseets/img/latest3.png" alt="Latest3">
+
+                        <div class="product-el">
+
+                            <div class="sale-icon">
+
+                                <img src="./aseets/icons/Sale.svg" alt="Sale">
+
+                            </div>
+
+                            <div class="price">
+
+                                <p>
+
+                                    <s>659,00 €</s>
+
+                                    659,00 €
+
+                                </p>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-items">
+
+                        <div class="data">
+
+                            <p>
+
+                                01-70 – 10-70
+
+                            </p>
+
+                        </div>
+
+                        <div class="product-name">
+
+                            <p>
+
+                                Fuel tank for all Cars’s, MyCar <br />
+                                lorem ipsum
+
+                            </p>
+
+                        </div>
+
+                        <button type="button">
+
+                            Show product
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="button-load-block-second">
+
+                <button type="button">
+
+                    Load More
+
+                </button>
+
+            </div>
+
+            <div class="block-line-second">
+
+                <div class="line-second"></div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-img">
+
+                <img class="footer-mobile-img" src="./aseets/icons/Details Matter.svg" alt="Details Matter">
+
+                <a href="#">
+
+                    <img class="cw3-white" src="./aseets/icons/CW3-White.svg" alt="CW3">
+
+                </a>
+
+            </div>
+
+            <div class="footer-links">
+
+                <ul>
+
+                    <li>
+
+                        <a href="#">
+
+                            Privacy Policy
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            Cookie Policy
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            Contact
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            Partners
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+
+                            Imprint
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-social">
+
+                <ul>
+
+                    <li>
+
+
+                        <img src="./aseets/icons/Facebook.svg" alt="Facebook">
+
+                        <a href="#">
+
+                            Car.world on Facebook
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <img src="./aseets/icons/Youtube.svg" alt="Youtube">
+
+                        <a href="#">
+
+                            Car.world on Youtube
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <img src="./aseets/icons/Instagram.svg" alt="Instagram">
+
+                        <a href="#">
+
+                            Car.world on Instagram
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <p>
+                © 2023 Car World. All rights reserved
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
