@@ -1,8 +1,28 @@
-document.addEventListener('DOMContentLoaded', function () {
-    initSlickSlider(); 
+$(document).ready(function () {
+    const $aboutCarWorld = $('.has-submenu');
+    const $submenu = $aboutCarWorld.find('.submenu');
+
+    $aboutCarWorld.on('mouseleave', function () {
+        $submenu.addClass('keep-open');
+        setTimeout(function () {
+            $submenu.removeClass('keep-open');
+        }, 400);
+    });
+
+    $submenu.on('mouseenter', function () {
+        $submenu.addClass('keep-open');
+    });
+
+    $submenu.on('mouseleave', function () {
+        $submenu.removeClass('keep-open');
+    });
+});
+
+$(document).ready(function () {
+    initSlickSlider();
 
     $(window).resize(function () {
-        initSlickSlider(); 
+        initSlickSlider();
     });
 });
 
@@ -26,18 +46,18 @@ function initSlickSlider() {
     }
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
     $('.has-submenu').hover(
-        function() {
+        function () {
             $('.main').css('margin-top', '80px');
         },
-        function() {
+        function () {
             $('.main').css('margin-top', '25px');
         }
     );
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
     const burgerIcon = $('.burger-icon');
     const mobileMenu = $('.mobile-menu');
     const burgerImage = $('.burger-image');
@@ -46,7 +66,7 @@ $(document).ready(function() {
     if (burgerIcon.length > 0 && mobileMenu.length > 0 && burgerImage.length > 0 && body.length > 0) {
         mobileMenu.hide();
 
-        burgerIcon.click(function() {
+        burgerIcon.click(function () {
             mobileMenu.toggle();
 
             if (burgerImage.attr('src').includes('burger-icon.svg')) {
@@ -98,8 +118,8 @@ function prevSlide() {
 }
 
 const dots = $('.navigation label');
-dots.each(function(index) {
-    $(this).click(function() {
+dots.each(function (index) {
+    $(this).click(function () {
         showSlides(index);
         slideIndex = index;
     });
