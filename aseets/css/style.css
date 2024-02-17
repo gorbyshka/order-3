@@ -47,7 +47,6 @@ button{
 
 .submenu {
   display: none !important;
-  background-color: #fff;
   padding: 10px;
   z-index: 1;
   margin-top: 220px;

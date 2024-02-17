@@ -6,7 +6,7 @@ $(document).ready(function () {
         $submenu.addClass('keep-open');
         setTimeout(function () {
             $submenu.removeClass('keep-open');
-        }, 400);
+        }, 600);
     });
 
     $submenu.on('mouseenter', function () {
